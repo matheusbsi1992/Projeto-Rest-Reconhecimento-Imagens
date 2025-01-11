@@ -1,0 +1,30 @@
+server:
+  port: 9293
+security:
+  jwt:
+    token:
+      secret-key: L(Al$%@@!#%$(_=--<M>MMJJamedaD0s#rrfr1611)caAFGWER#$¨¨¨¨&**()((!@@#_+__($%!!@@---++++=2ALM@DA1LuizH3nriQu3GreTcheMFMM3x0
+      expire-length: 3600000
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/estudos_laudos
+    username: postgres
+    password: postgres
+jpa:
+  open-in-view: false
+  hibernate:
+      ddl-auto: update
+      show-sql: true
+      format-sql: true
+flyway:
+  enabled: true
+  locations: classpath:db/migration
+  baseline-on-migrate: true
+  schemas: estudos
+spring-doc:
+  pathsToMatch:
+    - /auth/**
+    - /api/**/v1/**
+swagger-ui:
+  user-root-path: true

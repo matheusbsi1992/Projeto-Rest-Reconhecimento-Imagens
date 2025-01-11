@@ -117,7 +117,7 @@ A aplicação estará acessível em [http://localhost:9293](http://localhost:929
 - **Mapeamento**: Altera o boilerplate pelo MapStruct entre as classes DTO e as entidades.
 - **DTO**: Representa as classes de mapeamento de obejtos da classe de dominio.
 - **UTIL**: Representa a classe de utilidades (Geracao de Senha encriptada, etc).
-- **VALIDACAO**: Contém a analise de lógica de negócios sobre cada uma das classes DTO.
+- **VALIDACAO**: Contém a analise de lógica de negócios sobre cada uma das classes do Repositorio.
 ### Recursos Estáticos
 - **Templates**: Arquivos HTML renderizados pelo Thymeleaf.
 

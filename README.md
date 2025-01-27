@@ -122,7 +122,7 @@ A aplicação estará acessível em [http://localhost:9293](http://localhost:929
 - **Templates**: Arquivos HTML renderizados pelo Thymeleaf.
 
 ## Documentação da API
-A documentação da API está disponível através do SpringDoc OpenAPI. Acesse [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) para visualizar e testar os endpoints.
+A documentação da API está disponível através do SpringDoc OpenAPI. Acesse [http://localhost:9293/swagger-ui.html](http://localhost:9293/swagger-ui.html) para visualizar e testar os endpoints.
 
 ## Funcionalidades Implementadas
 

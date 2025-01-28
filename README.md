@@ -36,7 +36,7 @@ cd estudos
 ```
 
 ### Configure o Banco de Dados
-Certifique-se de que o PostgreSQL esteja em execução e crie um banco de dados chamado `estudos`. Configure as credenciais de acesso no arquivo `application.yml`:
+Certifique-se de que o PostgreSQL esteja em execução e crie um banco de dados chamado `estudos_laudos`. Configure as credenciais de acesso no arquivo `application.yml`:
 
 ```propertiesserver:
   port: 9293

@@ -1,5 +1,7 @@
 # Projeto (REST) - Spring Boot
 
+# Observação: Processos sendo atualizados !
+
 ## Descrição
 Bem-vindo ao repositório do projeto **Rest Reconhecimento de Imagens**, um projeto de demonstração que esta sendo desenvolvido com o framework Spring Boot. Este projeto utiliza tecnologias modernas para criar uma aplicação web com integrações robustas e arquitetura escalável. Aqui você encontra uma solução abrangente para implementar e estudar conceitos de desenvolvimento backend utilizando o Java.
 
